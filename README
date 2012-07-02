@@ -1,0 +1,23 @@
+A simple webapp that uses apache javaflow continuations to handle application flow.
+
+Environment
+-----------
+I built and run the application using:
+
+apache-maven-2.2.1
+oracle java jdk1.7.0_02
+apache-tomcat-7.0.28
+
+Build webapp
+------------
+From a shell cd to the pom.xml directory and run the following
+
+mvn clean package
+
+Then copy target/javaflow.web.war under webapp folder of tomcat.
+
+Run
+---
+Start tomcat, open a browser and type the following url to test the application:
+
+http://localhost:8080/javaflow.web/FlowServlet
