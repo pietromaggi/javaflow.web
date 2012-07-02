@@ -14,7 +14,7 @@ Download javaflow code from:
 
 http://svn.apache.org/repos/asf/commons/sandbox/javaflow/trunk/ 
 
-Then open a shell and cd to the pom.xml dorectory and run the following command:
+Then open a shell and cd to the pom.xml directory and run the following command:
 
 mvn clean install
 
