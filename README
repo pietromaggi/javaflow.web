@@ -10,6 +10,12 @@ apache-tomcat-7.0.28
 
 Build webapp
 ------------
+Download javaflow code from http://svn.apache.org/repos/asf/commons/sandbox/javaflow/trunk/ then open a shell and cd to the pom.xml dorectory and run the following command:
+
+mvn clean install
+
+to install javaflow into your local maven repository.
+
 Define an environment variable named JAVA_HOME_7 pointing to the jdk root directory.
 From a shell cd to the pom.xml directory and run the following:
 
