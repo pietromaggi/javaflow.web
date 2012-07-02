@@ -10,7 +10,11 @@ apache-tomcat-7.0.28
 
 Build webapp
 ------------
-Download javaflow code from http://svn.apache.org/repos/asf/commons/sandbox/javaflow/trunk/ then open a shell and cd to the pom.xml dorectory and run the following command:
+Download javaflow code from:
+
+http://svn.apache.org/repos/asf/commons/sandbox/javaflow/trunk/ 
+
+Then open a shell and cd to the pom.xml dorectory and run the following command:
 
 mvn clean install
 
