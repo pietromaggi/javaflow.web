@@ -10,7 +10,8 @@ apache-tomcat-7.0.28
 
 Build webapp
 ------------
-From a shell cd to the pom.xml directory and run the following
+Define an environment variable named JAVA_HOME_7 pointing to the jdk root directory.
+From a shell cd to the pom.xml directory and run the following:
 
 mvn clean package
 
