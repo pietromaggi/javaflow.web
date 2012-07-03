@@ -14,7 +14,7 @@ Download javaflow code from:
 
 http://svn.apache.org/repos/asf/commons/sandbox/javaflow/trunk/ 
 
-Open a shell and cd to the pom.xml directory and run the following command:
+Open a shell, cd to the pom.xml directory and run the following command:
 
 mvn clean install
 
@@ -27,7 +27,7 @@ Download the webapp code from:
 https://github.com/pietromaggi/javaflow.web.git
 
 Define an environment variable named JAVA_HOME_7 pointing to the jdk root directory.
-Open a shell cd to the pom.xml directory and run the following:
+Open a shell, cd to the pom.xml directory and run the following:
 
 mvn clean package
 
