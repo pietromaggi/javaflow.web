@@ -1,4 +1,4 @@
-A simple webapp that uses apache javaflow continuations to handle application flow.
+Simple webapp crud that uses apache javaflow continuations to handle application flow.
 
 Environment
 -----------
