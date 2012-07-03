@@ -8,24 +8,30 @@ apache-maven-2.2.1
 oracle java jdk1.7.0_02
 apache-tomcat-7.0.28
 
-Build webapp
-------------
+Build javaflow
+--------------
 Download javaflow code from:
 
 http://svn.apache.org/repos/asf/commons/sandbox/javaflow/trunk/ 
 
-Then open a shell and cd to the pom.xml directory and run the following command:
+Open a shell and cd to the pom.xml directory and run the following command:
 
 mvn clean install
 
 to install javaflow into your local maven repository.
 
+Build the webapp
+----------------
+Download the webapp code from:
+
+https://github.com/pietromaggi/javaflow.web.git
+
 Define an environment variable named JAVA_HOME_7 pointing to the jdk root directory.
-From a shell cd to the pom.xml directory and run the following:
+Open a shell cd to the pom.xml directory and run the following:
 
 mvn clean package
 
-Then copy target/javaflow.web.war under webapp folder of tomcat.
+Copy target/javaflow.web.war under webapp folder of tomcat.
 
 Run
 ---
